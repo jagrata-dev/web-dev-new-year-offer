@@ -1,0 +1,113 @@
+
+.merriweather-normal{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared */
+.text-align{
+    text-align: center;
+}
+
+/* header */
+header{
+    max-width: 1320px;
+   height: 600px;
+   margin: 50px auto;
+   background-image: url('../images/Banner\ Image.png');
+   border-radius: 16px;
+}
+
+header section{
+    padding: 177px 344px 177px 344px;
+    text-align: center; 
+}
+
+/* main */
+.discount-section{
+    max-width: 802.9px;
+    margin:120px auto;
+}
+
+.party{
+   max-width: 1320px;
+   height: 600px;
+   margin: 120px auto;
+   background-image: url('../images/Vectorrr.png');
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.leftsection{
+  width: 60%;
+  padding-left: 126px;
+}
+
+.rightsection{
+   width: 30%;
+}
+
+.party .title{
+   font-size: 64px;
+   font-weight: 500px;
+   color: #FFFFFF;
+}
+
+.party-text-1{
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8); 
+  margin-top: 24px; 
+}
+
+.party-text-2{
+       font-size: 20px;
+   font-weight: bold;
+   color: #FFFFFF;
+   margin-top: 48px;
+   margin-left: 32px;
+}
+
+/* contact */
+.contact{
+    max-width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.05) 0%, #FFFFFF 100%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact div{
+    width: 549px;
+    height: 272px;
+}
+
+/* coming soon section */
+.coming-soon{
+     max-width: 1320px;
+     height: 463px;
+     margin: 120px auto;
+     border: 2px solid rebeccapurple;
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+}
